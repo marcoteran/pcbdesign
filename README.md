@@ -21,5 +21,7 @@ En nuestros días los avances y desarrollos en las metodologías, técnicas y te
 
 ### Software
 
+* **KiCad EDA** - Schematic Capture & PCB Design Software [Descarga](https://www.kicad.org/download/)
+
 
 ### Literatura
