@@ -11,17 +11,19 @@ En nuestros días los avances y desarrollos en las metodologías, técnicas y te
 
 1. **Introducción al diseño electrónico moderno**
 	* Descargar presentación [PDF](https://github.com/marcoteran/pcbdesign/raw/master/lectures/01_pcbdesign_introduction.pdf)
-		- Arquitectura módular [PDF](https://github.com/marcoteran/pcbdesign/raw/master/lectures/01b_ArchitectureTop-Down.pptx)
-
+		- Arquitectura módular [PPT](https://github.com/marcoteran/pcbdesign/raw/master/lectures/01b_ArchitectureTop-Down.pptx)
+2. **Introducción al diseño electrónico moderno**
+	* Diseño de PCBs [PDF](https://github.com/marcoteran/pcbdesign/raw/master/lectures/02_pcbdesign_pcbdesign.pdf)
+		- Proyecto: nRF24L01 breakout [PPT](https://github.com/marcoteran/pcbdesign/raw/master/lectures/02b_proyecto01_nRF2401.pdf)
 
 ### Proyectos
-
+- Proyecto 01: [nRF24L01 breakout](https://github.com/marcoteran/pcbdesign/projects/nrf24l01breakout/)
 
 ## Material adicional
 
 ### Software
 
 * **KiCad EDA** - Schematic Capture & PCB Design Software [Descarga](https://www.kicad.org/download/)
-
+https://www.hackster.io/
 
 ### Literatura

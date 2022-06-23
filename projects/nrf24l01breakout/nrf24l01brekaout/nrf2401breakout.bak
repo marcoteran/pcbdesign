@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "nRF24L01 brekaout"
+Date "2022-06-22"
+Rev "1.0"
+Comp "Universidad Sergio Arboleda"
+Comment1 "Realizado por Marco Teran"
+Comment2 "¡Hola mundo!"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP1 C?
+U 1 1 62B3CD71
+P 1800 3350
+F 0 "C?" H 1915 3396 50  0000 L CNN
+F 1 "10uF" H 1915 3305 50  0000 L CNN
+F 2 "" H 1800 3350 50  0001 C CNN
+F 3 "~" H 1800 3350 50  0001 C CNN
+	1    1800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62B3CE48
+P 2275 3350
+F 0 "C?" H 2390 3396 50  0000 L CNN
+F 1 "100nF" H 2390 3305 50  0000 L CNN
+F 2 "" H 2313 3200 50  0001 C CNN
+F 3 "~" H 2275 3350 50  0001 C CNN
+	1    2275 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 62B3CF0A
+P 2050 2975
+F 0 "#PWR?" H 2050 2825 50  0001 C CNN
+F 1 "VCC" H 2067 3148 50  0000 C CNN
+F 2 "" H 2050 2975 50  0001 C CNN
+F 3 "" H 2050 2975 50  0001 C CNN
+	1    2050 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B3CF44
+P 2025 3725
+F 0 "#PWR?" H 2025 3475 50  0001 C CNN
+F 1 "GND" H 2030 3552 50  0000 C CNN
+F 2 "" H 2025 3725 50  0001 C CNN
+F 3 "" H 2025 3725 50  0001 C CNN
+	1    2025 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3200 1800 3075
+Wire Wire Line
+	1800 3075 2050 3075
+Wire Wire Line
+	2050 3075 2050 2975
+Wire Wire Line
+	2275 3200 2275 3075
+Wire Wire Line
+	2275 3075 2050 3075
+Connection ~ 2050 3075
+Wire Wire Line
+	1800 3500 1800 3600
+Wire Wire Line
+	1800 3600 2025 3600
+Wire Wire Line
+	2275 3600 2275 3500
+Wire Wire Line
+	2025 3725 2025 3600
+Connection ~ 2025 3600
+Wire Wire Line
+	2025 3600 2275 3600
+$EndSCHEMATC
